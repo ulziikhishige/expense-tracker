@@ -18,19 +18,21 @@ This project focuses on clean architecture, separation of concerns, and practica
 
 ## 🧱 Project Structure
 
+```
 expense_tracker/
 │
 ├── app/
-│ ├── main.py # CLI entry point
-│ ├── database.py # DB initialization & connection
-│ ├── models.py # Data models
-│ ├── services.py # Business logic
-│ └── init.py
+│   ├── main.py          # CLI entry point
+│   ├── database.py      # DB initialization & connection
+│   ├── models.py        # Data models
+│   ├── services.py      # Business logic
+│   └── __init__.py
 │
-├── tests/ # Unit tests (pytest)
+├── tests/               # Unit tests (pytest)
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 ## ⚙️ Installation
 
